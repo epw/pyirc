@@ -1,0 +1,10 @@
+First, make the IRC object. It takes 4 or 5 arguments. Host, port,
+nickname, real name, and an optional channel to join.
+
+In a loop, run the IRC object's main() method, and save the return
+value. The return value is a tuple containing each line's sender,
+target, if it was an action, and the message body.
+
+The bot's three main methods are join(), which takes the name of a
+channel to join, say(), which takes a name where to send the message
+and the message itself, and action(), which is the same.
